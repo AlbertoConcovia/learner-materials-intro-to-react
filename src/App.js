@@ -2,6 +2,7 @@ import "./App.css";
 import icon from "./cat.png";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import CindyClawford from './components/CindyClawford';
 
 function App() {
   return (
@@ -12,17 +13,8 @@ function App() {
 
       <main>
         <div className="cards__wrapper">
-          <div className="card">
-            <h3 className="card__text card__header">Cindy Clawford</h3>
-            <img
-              className="card__image"
-              src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png"
-              alt="A cute tabby kitten"
-            ></img>
-            <p className="card__text">Species: Cat</p>
-            <p className="card__text">Favourite Food(s): Mice</p>
-            <p className="card__text">Birth Year: 2012</p>
-          </div>
+
+          <CindyClawford/>
 
           <div className="card">
             <h3 className="card__text card__header">Little Miss Purrfect</h3>
