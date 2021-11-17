@@ -1,16 +1,13 @@
-import Home from "./Home";
-import Mews from "./Mews";
-import Contact from "./Contact";
-import About from "./About";
+import Link from "./Link";
 
 function Navbar() {
   return (
     <nav className="nav__container">
       <ul className="nav__container ul ul__navbar">
-        <Home />
-        <Mews />
-        <Contact />
-        <About />
+        <Link name="Home" href="home" />
+        <Link name="Mews" href="Mews" />
+        <Link name="Contact" href="Contact" />
+        <Link name="About" href="https://www.cats.org.uk/sponsor"/>
       </ul>
     </nav>
   );

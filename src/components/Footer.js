@@ -1,100 +1,38 @@
 import icon from "../cat.png";
+import Link from "../components/Link";
 
 function Footer() {
   return (
     <footer>
       <section className="nav__container footer">
         <ul className="footer__section ul">
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Belly Rubs
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Donate
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Cat Nip
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Customers
-            </a>
-          </li>
+          <Link name="About" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Belly Rubs" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Donate" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Cat Nip" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Customers" href="https://www.cats.org.uk/sponsor" />
         </ul>
+
         <ul className="footer__section ul">
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Resources
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Dogs
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              eBooks
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Revenge
-            </a>
-          </li>
+          <Link name="Resources" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Dogs" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Blog" href="https://www.cats.org.uk/sponsor" />
+          <Link name="eBooks" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Revenge" href="https://www.cats.org.uk/sponsor" />
         </ul>
+
         <ul className="footer__section ul">
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Help
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Meow
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Mice
-            </a>
-          </li>
+          <Link name="Contact" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Help" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Meow" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Mice" href="https://www.cats.org.uk/sponsor" />
         </ul>
+
         <ul className="footer__section ul">
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Ts &amp; Cs
-            </a>
-          </li>
-          <li>
-            <a className="links" href="https://www.cats.org.uk/sponsor">
-              Privacy Policy
-            </a>
-          </li>
-          <li className="links">&copy; 2021 TR Inc.</li>
-          <i>
-            <img className="icon" src={icon} alt="A ginger cat silhouette" />
-          </i>
+          <Link name="Ts &amp; Cs" href="https://www.cats.org.uk/sponsor" />
+          <Link name="Privacy Policy" href="https://www.cats.org.uk/sponsor" />
+          <Link name="&copy; 2021 TR Inc." href="https://www.cats.org.uk/sponsor" />
+          <i> <img className="icon" src={icon} alt="A ginger cat silhouette" /> </i>
         </ul>
       </section>
     </footer>
